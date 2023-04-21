@@ -2,74 +2,74 @@
     {
         "id": 1,
         "idCategoria": 1,
-        "nombre": "Maceta",
-        "precio": 550,
-        "stock": 30,
-        "img": 
+        "nombre": "Maceta Rectangular",
+        "precio": 750,
+        "stock": 40,
+        "img": "/img/maceta1.jpg"
     },
     {
         "id": 2,
         "idCategoria": 1,
-        "nombre": "Maceta",
+        "nombre": "Maceta Redonda",
         "precio": 650,
-        "stock": 20,
-        "img": 
+        "stock": 25,
+        "img": "/img/maceta2.jpg"
     },
     {
         "id": 3,
         "idCategoria": 1,
-        "nombre": "Maceta",
-        "precio": 750,
-        "stock": 15,
-        "img": 
+        "nombre": "Maceta Chica",
+        "precio": 550,
+        "stock": 55,
+        "img": "/img/maceta3.jpg"
     },
     {
         "id": 4,
         "idCategoria": 2,
-        "nombre": "Animalitos",
+        "nombre": "Animalito Detalle",
         "precio": 800,
-        "stock": 30,
-        "img": 
+        "stock": 10,
+        "img": "/img/animalito1.jpg"
     },
     {
         "id": 5,
         "idCategoria": 2,
-        "nombre": "Animalitos",
-        "precio": 850,
-        "stock": 7,
-        "images": 
+        "nombre": "Animalito Pequeño",
+        "precio": 750,
+        "stock": 46,
+        "img": "/img/animalito2.jpg"
     },
     {
         "id": 6,
         "idCategoria": 2,
-        "nombre": "Animalitos",
-        "precio": 890,
-        "stock": 20,
-        "img": 
+        "nombre": "Animalito Grande",
+        "precio": 990,
+        "stock": 29,
+        "img": "/img/animalito3.jpg"
     },
     {
         "id": 7,
         "idCategoria": 3,
-        "nombre": "Tazas",
+        "nombre": "Taza Estrella",
         "precio": 490,
-        "stock": 10,
-        "img": 
+        "stock": 100,
+        "img": "/img/taza1.jpg"
     },
     {
         "id": 8,
         "idCategoria": 3,
-        "nombre": "Tazas",
-        "precio": 450,
-        "stock": 30,
-        "img": 
+        "nombre": "Taza Juego",
+        "precio": 750,
+        "stock": 80,
+        "img": "/img/taza2.jpg"
     },
     {
         "id": 9,
         "idCategoria": 3,
-        "nombre": "Tazas",
+        "nombre": "Tazón Desayuno",
         "precio": 650,
-        "stock": 21,
-        "img": 
+        "stock": 12,
+        "img": "/img/taza3.jpg"
     }
     
 ]

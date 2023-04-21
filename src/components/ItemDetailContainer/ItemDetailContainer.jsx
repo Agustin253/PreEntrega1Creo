@@ -9,7 +9,7 @@ export const ItemDetailContainer = () => {
     const { id } = useParams()
 
     useEffect(() => {
-        fetch('../json/productos.json') //.. por estar en una ruta mas en profundidad de mi aplicacion
+        fetch('/json/productos.json') 
             .then(response => response.json())
             .then(productos => {
                 const prod = productos.find(prod => prod.id === parseInt(id))

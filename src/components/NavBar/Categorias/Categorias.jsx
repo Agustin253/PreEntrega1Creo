@@ -6,7 +6,7 @@ export const Categorias = () => {
             <li className="nav-item">
                 <Link className="nav-link" to={"/"}>
                     <button className='btn btn-secondary'>
-                        <i className="fas fa-home fa-lg"></i>
+                        <img className="logo" src="/img/logolunas.png" width={60}></img>
                     </button>
                 </Link>
             </li>
@@ -28,6 +28,7 @@ export const Categorias = () => {
             </li>
 
            
+
         </ul>
     );
 }
