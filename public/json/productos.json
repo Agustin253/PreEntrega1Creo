@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Maceta",
+        "precio": 550,
+        "stock": 30,
+        "img": 
+    },
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "nombre": "Maceta",
+        "precio": 650,
+        "stock": 20,
+        "img": 
+    },
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "nombre": "Maceta",
+        "precio": 750,
+        "stock": 15,
+        "img": 
+    },
+    {
+        "id": 4,
+        "idCategoria": 2,
+        "nombre": "Animalitos",
+        "precio": 800,
+        "stock": 30,
+        "img": 
+    },
+    {
+        "id": 5,
+        "idCategoria": 2,
+        "nombre": "Animalitos",
+        "precio": 850,
+        "stock": 7,
+        "images": 
+    },
+    {
+        "id": 6,
+        "idCategoria": 2,
+        "nombre": "Animalitos",
+        "precio": 890,
+        "stock": 20,
+        "img": 
+    },
+    {
+        "id": 7,
+        "idCategoria": 3,
+        "nombre": "Tazas",
+        "precio": 490,
+        "stock": 10,
+        "img": 
+    },
+    {
+        "id": 8,
+        "idCategoria": 3,
+        "nombre": "Tazas",
+        "precio": 450,
+        "stock": 30,
+        "img": 
+    },
+    {
+        "id": 9,
+        "idCategoria": 3,
+        "nombre": "Tazas",
+        "precio": 650,
+        "stock": 21,
+        "img": 
+    }
+    
+]
