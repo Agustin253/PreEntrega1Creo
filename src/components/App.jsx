@@ -11,7 +11,7 @@ import { Cart } from './Cart/Cart';
 
 import { createProducts } from '../firebase/firebase.js';
 export const App = () => {
-  createProducts()
+  //createProducts()
   return (
     <>
       <BrowserRouter>
