@@ -69,14 +69,21 @@ export const Checkout = () => {
                                 <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>
                                 <input type="text" className="form-control" name="nombre" required />
                             </div>
-                            <div className="mb-3">
-                                <label htmlFor="email" className="form-label">E-mail</label>
-                                <input type="email" className="form-control" name="email" required/>
-                            </div>
-                            <div className="mb-3">
-                                <label htmlFor="email" className="form-label">Repetir E-mail</label>
-                                <input type="email" className="form-control" name="repeatEmail" required/>
-                            </div>
+                            <div class="form-group">
+    <label for="email">Correo electrónico</label>
+    <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
+    <div class="invalid-feedback">
+      Por favor, ingresa un correo electrónico válido.
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="confirm-email">Confirmar correo electrónico</label>
+    <input type="email" class="form-control" id="confirm-email" placeholder="Repite tu correo electrónico" required>
+    <div class="invalid-feedback">
+      Los correos electrónicos no coinciden.
+    </div>
+  </div>
                             <div className="mb-3">
                                 <label htmlFor="dni" className="form-label">DNI</label>
                                 <input type="number" className="form-control" name="dni" required />

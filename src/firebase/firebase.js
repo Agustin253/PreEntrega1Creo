@@ -5,7 +5,7 @@ import { getFirestore, addDoc, getDoc, getDocs, deleteDoc, updateDoc, collection
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCtn-Y1y6Cr0APCpFiff6IzY-zsQO9EqF0",
+  apiKey: process.env.API_KEY,
   authDomain: "lunas-de-valencia.firebaseapp.com",
   projectId: "lunas-de-valencia",
   storageBucket: "lunas-de-valencia.appspot.com",
