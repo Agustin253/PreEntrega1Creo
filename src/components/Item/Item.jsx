@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-//Recibir un objeto y devolverlo en forma de componente con esta plantilla
+
 export const Item = ({ item }) => {
     return (
         <div className="card" style={{ width: '18rem' }}>

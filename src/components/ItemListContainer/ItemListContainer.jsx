@@ -9,7 +9,7 @@ export const ItemListContainer = () => {
 
   useEffect(() => {
 
-    if (category) { 
+    if (category) { //Consulto si me ingresaron un parametro en la url
       fetch('../json/productos.json')
         .then(response => response.json())
         .then(productos => {
@@ -27,11 +27,11 @@ export const ItemListContainer = () => {
         })
     }
 
-  }, [category]) 
+  }, [category]) //Cada ves que se modifique la categoria
 
   return (
     <div className="row">
-      {<ItemList productos={productos} />}
+      {<ItemList productos={productos} plantilla={"Item"} />}
     </div>
   )
 }
