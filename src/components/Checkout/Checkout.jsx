@@ -75,7 +75,7 @@ export const Checkout = () => {
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="email" className="form-label">Repetir E-mail</label>
-                                <input type="email" className="form-control" name="emailRepetido" required/>
+                                <input type="email" className="form-control" name="repeatEmail" required/>
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="dni" className="form-label">DNI</label>
