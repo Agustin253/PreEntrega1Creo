@@ -26,7 +26,7 @@ export const ItemListContainer = () => {
         })
     }
 
-  }, [category]) //Cada ves que se modifique la categoria
+  }, [category]) 
 
   return (
     <div className="row">

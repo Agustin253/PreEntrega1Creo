@@ -1,4 +1,4 @@
-// Import the functions you need from the SDKs you need
+
 
 import { initializeApp } from "firebase/app";
 import { getFirestore, addDoc, getDoc, getDocs, deleteDoc, updateDoc, collection, doc } from 'firebase/firestore'
@@ -45,8 +45,7 @@ export const getProduct = async (id) => {
     const item = { ...prod.data(), id: prod.id }
     return item
 }
-//1 o 0
-//Tanto Update como Delete no devuelven un estado
+
 export const updateProduct = async (id, info) => {
     await updateDoc(doc(bdd, "productos", id), info)
 }
@@ -55,7 +54,7 @@ export const deleteProduct = async (id) => {
     await deleteDoc(doc(bdd, "productos", id))
 }
 
-// CREATE y READ OrdenCompra
+
 
 export const createOrdenCompra = async (cliente, precioTotal, carrito, fecha) => {
     const ordenCompra = await addDoc(collection(bdd, "ordenCompra"), {

@@ -1,6 +1,9 @@
 import './App.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import { ToastContainer } from 'react-toastify';
 
 //Components 
 import { Navbar } from './NavBar/NavBar';
@@ -16,6 +19,7 @@ export const App = () => {
     <>
       <BrowserRouter>
         <Navbar />
+        <ToastContainer />
         <Routes>
         <Route path='/' element={<ItemListContainer />} />
             <Route path='/category/:category' element={<ItemListContainer />} />
